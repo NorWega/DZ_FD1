@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAKET_FORM</title>
+    <style>
+        @media (max-width: 790px) {
+            body {
+                padding: 0 40px;
+            }
+
+            input {
+                margin-top: 10px;
+            }
+
+            select {
+                width: 100px;
+            }
+
+            p {
+                font-size: larger;
+                line-height: 30px;
+            }
+            br {
+                display: none;
+            }
+            
+        }
+
+        body {
+            padding: 0 40px;
+        }
+
+        select {
+            width: 300px;
+            margin-top: 30px;
+        }
+
+        p {
+            font-size: larger;
+            line-height: 10px;
+        }
+        legend{
+            color: rgb(144, 201, 60);
+        }
+    </style>
+</head>
+
+<body>
+    <fieldset>
+        <legend>Планшет (787px) / Телефон (792px)</legend>
+        <p>Для публикации вашей статьи заполните,<br>
+            <br> пожалуйста,следующую форму:</p><br>
+        <p>Название статьи:</p><br>
+        <p>Рубрика:
+            <select name="" id="">
+                <option value="">программирование</option>
+                <option value="">CSS</option>
+                <option value="">HTML</option>
+            </select>
+        </p> <br>
+        <p>Публикация:<br>
+            <br>
+            <input type="radio" name="" value="1">на сайте<br>
+            <input type="radio" name="" value="2">в журнале<br>
+            <input type="radio" name="" value="3">на сайте и в журнале
+        </p><br>
+        <p>Разрешить коментарий:<input type="checkbox"></p>
+        <p>Текст статьи:</p><br>
+        <br>
+        <p><input type="button" value="Опубликовать"></p>
+    </fieldset>
+
+
+
+
+</body>
+
+</html>
